@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: jimmysong/k8s-app-monitor-agent
+  repository: xiaohuih/k8s-app-monitor-agent
   tag: 749f547
   pullPolicy: IfNotPresent
   port: 8888
@@ -23,7 +23,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   path: /k8s-app-monitor-agent
   hosts:
-    - k8s-app-monitor-agent.jimmysong.io
+    - k8s-app-monitor-agent.xiaohuih.io
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:

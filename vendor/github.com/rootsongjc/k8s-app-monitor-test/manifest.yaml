@@ -11,7 +11,7 @@ spec:
         k8s-app: k8s-app-monitor-test
     spec:
       containers:
-      - image: jimmysong/k8s-app-monitor-test:latest
+      - image: xiaohuih/k8s-app-monitor-test:latest
         name : app
         ports:
         - containerPort: 3000

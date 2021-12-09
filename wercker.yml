@@ -33,4 +33,4 @@ deploy:
        cmd: /pipeline/source/k8s-app-monitor-agent
        port: "3000"
        tag: latest
-       repository: jimmysong/k8s-app-monitor-agent
+       repository: xiaohuih/k8s-app-monitor-agent

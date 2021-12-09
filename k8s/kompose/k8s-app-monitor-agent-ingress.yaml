@@ -4,7 +4,7 @@ metadata:
   name: k8s-app-monitor-agent-ingress
 spec:
   rules:
-  - host: k8s-app-monitor-agent.jimmysong.io
+  - host: k8s-app-monitor-agent.xiaohuih.io
     http:
       paths:
       - path: /
